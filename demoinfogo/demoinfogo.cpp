@@ -43,18 +43,18 @@ int __cdecl main( int argc, char *argv[] )
 	{
 		printf( "demoinfogo filename.dem\n" );
 		printf( "optional arguments:\n" \
-				" -gameevents    Dump out game events.\n" \
-				" -nofootsteps   Skip footstep events when dumping out game events.\n" \
-				"                Should be after -gameevents.\n" \
-				" -extrainfo     Show extra player info when dumping out game events.\n" \
-				"                Should be after -gameevents.\n" \
-				" -deathscsv     Dump out player death info in CSV form.\n" \
-				" -nowarmup      Skip deaths during warm up when dumping player deaths.\n" \
-				"                Should be after -deaths.\n" \
-				" -stringtables  Dump string tables.\n" \
-				" -datatables    Dump data tables. (send tables)\n" \
-				" -packetentites Dump Packet Entities messages.\n" \
-				" -netmessages   Dump net messages that are not one of the above.\n" \
+				" -gameevents     Dump out game events.\n" \
+				" -nofootsteps    Skip footstep events when dumping out game events.\n" \
+				"                 Should be after -gameevents.\n" \
+				" -extrainfo      Show extra player info when dumping out game events.\n" \
+				"                 Should be after -gameevents.\n" \
+				" -deathscsv      Dump out player death info in CSV form.\n" \
+				" -nowarmup       Skip deaths during warm up when dumping player deaths.\n" \
+				"                 Should be after -deaths.\n" \
+				" -stringtables   Dump string tables.\n" \
+				" -datatables     Dump data tables. (send tables)\n" \
+				" -packetentities Dump Packet Entities messages.\n" \
+				" -netmessages    Dump net messages that are not one of the above.\n" \
 				"Note: by default everything is dumped out.\n" );
 		exit( 0 );
 	}
